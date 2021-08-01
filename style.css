@@ -1,0 +1,19 @@
+body{
+background-image: url("https://thumbs.dreamstime.com/z/moustache-icons-black-moustaches-man-accessories-props-barber-shop-gentlemen-model-face-hairs-isolated-hipster-fashion-vector-180771626.jpg") 
+}
+
+h1{
+    font-size: 25px !important;
+
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{ box-shadow: 1px 1px 38px red;}
+    to{ box-shadow: 1px 1px 38px yellow;}
+}
